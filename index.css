@@ -1,0 +1,92 @@
+body{
+    height: 100vh;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    /* background-color: brown; */
+    /* position: relative; */
+  }
+  
+  form {
+    display: flex;
+    z-index: 1;
+    flex-direction: column;
+    margin: auto;
+    height: 400px;
+    width: 380px;
+    padding: 30px;
+    padding-bottom: 60px;
+    padding-top: 60px;
+    border: 2px solid rgb(185, 185, 185);
+    border-radius: 2px;
+    justify-content: center;
+    /* align-items: center; Add this line to center the form vertically */
+    position: absolute; /*Add this line to center the form horizontally*/
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: tomato;
+  }
+  
+  form input{
+    margin-bottom:1rem;
+    width:360px;
+    height:33px;
+    padding-left: 12px;
+    font-size: 14px;
+    border: 2px rgb(185, 185, 185);
+    border-style: solid;
+    border-radius: 2px;
+  }
+  
+  form label{
+    font-size: 16px;
+    margin-bottom: 5px;
+    font-weight: 600;
+  }
+  
+  form button{
+    width:367px;
+    height:35px;
+    border-radius: 5px;
+    margin-top: 20px;
+    background-color:#6559f5;
+    color:white;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .result{
+    display:none;
+    height: 400px;
+    width: 800px;
+    z-index: 2;
+    text-align: center;
+    align-content: center;
+    border:2px solid rgb(185, 185, 185);
+    border-radius: 5px;
+    background-color: aqua;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+  }
+  
+  .result button{
+    margin-top: 60px;
+    font-size: large;
+    background-color:#6559f5;
+    border:none;
+    width:80px;
+    height:30px;
+    border-radius:5px;
+    color:white;
+    cursor: pointer;
+  }
+  
